@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nombre Apellido | Portafolio</title>
+    <link rel="icon" href="#" /> <!-- colocar icono -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/mystyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- pre-load de imagenes -->
+    <!-- has un pre-load de las imagenes mas pesadas -->
+    <link rel="preload" href="./img/autorenting.jpg" as="image">
+    <link rel="preload" href="./img/brigada.jpg" as="image">
+    <link rel="preload" href="./img/itquentame.jpeg" as="image">
+</head>
+
+<body class="wellcome w--opacity">
+
+    <!-- barra de anvegación -->
+    <nav class="w-100 position-fixed">
+        <div class="contenedor__principal nav white-color d-flex justify-content-between px-4 py-3 m-auto">
+            <div class="nav__name">
+                <span class="fs-6 fw-bold text-white">Carlos <span class="text-warning">Lorca</span></span>
+            </div>
+
+            <div class="nav_icon">
+                <i class="nav_enlace_icon fs-4 d-lg-none fa-solid fa-bars text-white"></i>
+            </div>
+
+            <div class="nav__enlaces d-flex flex-column flex-lg-row text-light">
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#inicio">Inicio</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#acercade">Acerca de mi</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#habilidades">Habilidades</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#experiencia">Experiencia</a>
+                <a class="nav__enlace text-light text-decoration-none" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <!-- vista principal (inicio) -->
+    <section class="image-section">
+        <img src="img/logo3.png" alt="Descripción de la imagen" class="image-section__img">
+    </section>
+    <!-- vista principal (inicio) -->
+    <section id="inicio" class="section container-fluid bg-dark d-block">
+        <div class="section__flex d-flex flex-column justify-content-center align-items-center">
+            <span class="text-white d-block text-center fw-bold fs-5">Hola, <span class="text-warning fw-normal">Soy</span></span>
+            <span class="text-warning d-block text-center fw-bold fs-1">Carlos Lorca</span>
+            <span class="text-white d-block text-center fw-bold fs-5">Design UX UI</span>
+            <span class="text-white d-block text-center fw-bold fs-5">&lt;Transformando ideas en experiencias únicas y memorables&gt;</span>
+
+            <div class="section__links pt-4 w-100 d-flex justify-content-center">
+                <a class="me-3 text-decoration-none text-white fs-1" href="https://www.behance.net/carloslorca" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-square-behance"></i>
+                </a>
+                <a class="text-decoration-none text-white fs-1" href="https://www.linkedin.com/in/carloslorcacontreras/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin icon_social"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- acerca de -->
+    <section class="acercade container-fluid" id="acercade">
+        <div class="contenedor__principal m-auto  text-white px-3">
+
+            <div class="row">
+                <div class="col-lg">
+                    <h2 class="text-center text-lg-start fw-bold my-5">Acerca de mi</h2>
+
+                    <p class="text-center text-lg-start">
+                        Soy una persona metódica que busca dar resultados concretos y realistas en el ámbito del diseño UX/UI. Creo firmemente que el diseño es un enfoque de perspectivas, ya que la realidad de cada usuario puede ser diferente, dependiendo de cómo la miremos.
+                    </p>
+                    <p class="text-center text-lg-start">
+                        Mi objetivo es siempre ofrecer una gama de posibilidades que permitan concretar proyectos de la manera más factible y eficiente para el usuario.
+                    </p>
+                    <p class="text-center text-lg-start">
+                        En mi trabajo, me adapto a distintos equipos de trabajo y metodologías de estudio, asegurando una colaboración fluida y productiva. Mi enfoque se centra en crear experiencias digitales que transformen ideas en soluciones prácticas y utilizables, garantizando que cada diseño no solo cumpla con los requisitos estéticos, sino que también ofrezca una experiencia intuitiva y satisfactoria. 
+                    </p>
+                    <a id="asd" class="contacto btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                        href="#contacto">Contactame</a>
+
+                </div>
+                <div class="col-lg">
+                    <img class="img__perfil me d-block w-75 m-auto rounded-circle py-5" src="img/img11.jpeg" alt="imagen de perfil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="habilidades" class="habilidades container-fluid">
+        <div class="contenedor__principal m-auto text-white px-3">
+            <div class="row">
+                <div class="d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="col-lg">
+                        <h2 class="text-center text-lg-start fw-bold my-5">Habilidades</h2>
+
+                        <p class="text-center text-lg-start">
+                            Soy un diseñador UX/UI meticuloso que se enfoca en entregar resultados concretos y realistas. Mi enfoque se basa en entender y empatizar con las diferentes perspectivas de los usuarios para crear experiencias digitales intuitivas y efectivas. Aquí están algunas de las habilidades que poseo:
+                        </p>
+
+                        <a class="proyectos btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                            href="#experiencia">Proyectos</a>
+                    </div>
+                    <div class="col-lg my-5">
+                        <div class="d-flex justify-content-center px-4">
+                            <ul class="me-5">
+                                <li>Investigación de Usuarios</li>
+                                <li>Prototipado</li>
+                                <li>Diseño de Interfaces</li>
+                                <li>Wireframing</li>
+                            </ul>
+
+                            <ul class="me-5">
+                                <li>Testeo de Usabilidad</li>
+                                <li>Arquitectura de la Información</li>
+                                <li>Diseño Industrial</li>
+                                <li>Design Thinking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experiencia -->
+    <section id="experiencia" class="experiencia container-fluid mb-5">
+        <div class="contenedor__principal m-auto text-white px-3">
+
+            <div class="row">
+                <div class="col">
+                    <h2 class=" text-center fw-bold my-5">Experiencia</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-md-2 row-cols-xl-3">
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/fundacionprimero.png" alt="experiencia ITQuentame & Brigada">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">TriCiclos,expertos en economia circular.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/fundacionsegundo.png" alt="experiencia auto renting hca">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Centro veterinario fundacion Julieta modelo I.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/fundaciontercero.png" alt="experiencia auto renting hca">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold1">Centro veterinario fundacion Julieta modelo II.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                
+
+                <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+                <!-- <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="#" alt="texto alternativo">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Lorem ipsum dolor sit amet.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#idexperiencia"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div> -->
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- svg waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1f1f1f" fill-opacity="1"
+            d="M0,96L120,122.7C240,149,480,203,720,218.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+    </svg>
+
+
+    <!-- footer -->
+    <footer class="text-white footer container-fluid" id="contacto">
+        <div class="contenedor__principal m-auto px-3">
+            <div class="row">
+                <div class="d-flex flex-column flex-md-row justify-content-sm-between align-items-sm-center">
+                    <div class="footer__name pb-5">
+                        <span class="d-block fs-4 fw-bold text-center text-md-start">Carlos <span
+                                class="text-warning">Lorca</span></span>
+                        <span class="text-white d-block text-center text-md-start fs-6">Design UX / UI</span>
+                    </div>
+
+                    <div class="pb-5">
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            (+56)9 6614 9081</span>
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            clorcadesignux@gmail.com</span>
+                    </div>
+
+                    <div class="text-center pb-5">
+                        <a class="me-3 text-decoration-none text-white" href="https://www.behance.net/carloslorca" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-square-behance fa-2xl"></i>
+                        </a>
+                        <a class="me-3 text-decoration-none text-white" href="https://www.linkedin.com/in/carloslorcacontreras/" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin fs-3"></i>
+                        </a>
+                        <a class="text-decoration-none text-white" href="./files/cv.pdf"
+                            onclick="return confirm('¿Desea descargar el CV?')" target="_blank"
+                            rel="noopener noreferrer" download>
+                            <i class="fa-solid fa-sheet-plastic fs-3"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+
+
+    <!-- Ventanas modal -->
+    <!-- ITQ modal-->
+    <div class="modal fade" id="brigada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">TriCiclos,expertos en economia circular.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        <strong>Triciclos</strong> promueve soluciones en el ámbitos ambiental y social con la misma relevancia que en el ámbito económico, diseñamos e implementamos soluciones para eliminar el concepto de basura. Lo hacemos a través de la ingeniería para una economía circular, con el fin de reducir el problema de los residuos antes de que éstos se generen o garantizando que tengan el destino más circular posible (a través de reutilización, retorno y reciclaje).
+                    </p>
+                    <p>
+                        
+                    </p>Actuan en toda la cadena de producción, consumo y descarte de materiales, incluso en las esferas pública y académica.
+
+                    <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
+                        <div class="w-100">
+                            <img src="./img/triciclo5.png" alt="ITQuentame" class="w-100 rounded-3">
+                            <a class="btn btn-warning mt-3" href="" target="_blank" rel='noopener noreferrer'>
+                                Visitar
+                            </a>
+                        </div>
+                        <div class="w-100">
+                            <img src="./img/triciclo2.png" alt="Brigada" class="w-100 rounded-3">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Google form</li>
+                        <li>photoshop</li>
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <ul>
+                        <li>Realización de entrevistas a usuarios para entender sus necesidades y comportamientos.
+                        </li>
+                        <li>
+                            Creación de perfiles de usuarios basados en la investigación.
+                        </li>
+                        <li>
+                            Diseño de wireframes de baja fidelidad para las principales pantallas del producto.
+                        </li>
+                        <li>
+                            Desarrollo de un prototipo interactivo de media fidelidad utilizando herramientas como Figma.
+                        </li>
+                        <li>
+                            Recopilación de feedback y observaciones sobre el uso del prototipo.
+                        </li>
+                        <li>
+                            Realización de ajustes en el prototipo basado en los resultados de las pruebas de usabilidad.
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- AUTO RENTING HCA modal-->
+    <div class="modal fade" id="autorenting" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Centro veterinario fundacion Julieta modelo I.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Objetivos:</h6>
+                    <br>
+
+                    <p>
+                        La Fundación Julieta de Rescate Animal se fusiona con el Centro Veterinario Julieta para trabajar juntas en una misión común. Esta colaboración se verá reflejada en la nueva página web propuesta, unificando esfuerzos y recursos para brindar un mejor servicio y atención tanto a los animales rescatados como a las mascotas de la comunidad.
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/fundacionsegundo.png" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/fundacion2proto.png" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/fundacionproto7.png" class="d-block h-100 m-auto" alt="interfaz de inicio">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/fundacionproto8.png" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/fundacionproto6.png" class="d-block h-100 m-auto"
+                                        alt="interfaz de selección dde vehiculo">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/fundacionproto5.png" class="d-block h-100 m-auto"
+                                        alt="interfaz de alquiler de vehiculo">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="#" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Google form</li>
+                        <li>Visual studio</li>
+                        <li>photoshop</li>
+                        <li>sketh</li>
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <br>
+                    <ul>
+                        <li>
+                            Realización de entrevistas a 10 usuarios para entender sus necesidades y comportamientos.
+                        </li>
+                        <li>
+                            Creación de 3 perfiles de usuarios basados en la investigación.
+                        </li>
+                        <li>
+                            Realización de iteraciones rápidas en los wireframes basadas en feedback inicial.
+                        </li>
+                        <li>
+                            Desarrollo de un prototipo interactivo de alta fidelidad utilizando Figma.
+                        </li>
+                        <li>
+                            Recopilación de feedback y observaciones sobre el uso del prototipo.
+                        </li>
+                        <li>
+                            Identificación de problemas de usabilidad y áreas de mejora.
+
+                        </li>
+                        <li>
+                            Realización de ajustes en el prototipo basado en los resultados de las pruebas de usabilidad.
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+    <!-- <div class="modal fade" id="idexperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor sit amet.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+
+                    <span>CONTENIDO AQUÍ</span>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- mis scripts -->
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>
